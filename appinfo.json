@@ -1,0 +1,55 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "dlee195@live.com",
+    "longName": "Pulse Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/ABWatchMenuPic.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/pebbleAB.png",
+                "name": "WATCHFACE_BACKGROUND",
+                "type": "png-trans"
+            },
+            {
+                "file": "fonts/texgyreadventor-regular-webfont.ttf",
+                "name": "WATCH_FONT_36",
+                "type": "font"
+            },
+            {
+                "file": "fonts/texgyreadventor-regular-webfont.ttf",
+                "name": "WATCH_FONT_26",
+                "type": "font"
+            },
+            {
+                "file": "fonts/texgyreadventor-regular-webfont.ttf",
+                "name": "WATCH_FONT_16",
+                "type": "font"
+            },
+            {
+                "file": "images/chromeos_2587653_bluetooth_not_connected_en.png",
+                "name": "BLUETOOTH_OFF",
+                "type": "png-trans"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Pulse Watch",
+    "uuid": "7c34d6a7-a28d-4cc1-85a7-3d412f575bee",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
